@@ -45,6 +45,9 @@ border: black;
     font-size: 4em;
     color: #000;
 }
+.game {
+    font-size: 2em;
+}
 
 .pix {
     max-width: 200px;
