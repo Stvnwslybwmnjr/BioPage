@@ -48,7 +48,9 @@ border: black;
 .game {
     font-size: 2em;
 }
-
+.codewars {
+    width: 69px;
+}
 .pix {
     max-width: 200px;
 }
