@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Fontawesome link  -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <!--Link to Vue.js Library-->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+  <!-- Link to interal CSS  -->
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Link to external fonts  -->
+  <link href="https://fonts.googleapis.com/css?family=Handlee|Old+Standard+TT|Pacifico&display=swap" rel="stylesheet">
+  <title>Steven Bowman Bio</title>
+
+</head>
+
+<body>
+  <video playsinline autoplay muted loop id="bgvid">
+    <source src="./assets/images/190408_01_Alaska_Landscapes1_09.mp4" type="video/mp4">
+  </video>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <div class="container">
+      <a class="navbar-brand" href="#">Developer for hire</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="row">
+
+      <!-- Post Content Column -->
+      <div class="col-lg-8">
+
+        <div class="card my-4">
+          <h5 class="card-header">Steven Bowman</h5>
+          <div class="card-body">
+
+        <!-- Title -->
+        <!-- <h1 class="mt-4">Steven Bowman</h1> -->
+
+        <!-- Date/Time -->
+        <p>Full Stack Developer</p>
+
+        <hr>
+
+        <!-- Preview Image -->
+
+        <img class="img-fluid rounded pageCenter" id="propic" src="./assets/images/Unknown35[222].jpg"
+          alt="Steven in a suit">
+
+        <hr>
+
+        <!-- Post Content -->
+        <p class="lead">My name is Steven I am a coder, musician, chef, husband and father. Born in southern California in the late eighties he moved to Arizona at the turn of the millenium.
+          I love working as a team, solving problems and working toward my goals. I communicate well with others and get a thrill from helping others learn or solve a problem.
+        </p>
+        <p>
+          My goals for the near future are to break into the tech world to help provide for my growing family and hopefully create things that will be usefull for society.
+
+           </p>
+
+       
+
+       
+
+    
+
+     
+
+      </div>
+      </div>
+      </div>
+      
+      <!-- Sidebar Widgets Column -->
+      <div class="col-md-4">
+
+        <!-- Search Widget -->
+        <div class="card my-4">
+          <h5 class="card-header">Contact</h5>
+          <div class="card-body">
+            <a href="mailto:stevenbowmanjr@gmail.com" target="_top">stevenbowmanjr@gmail.com</a>
+            <br>
+            <a href="tel://480-650-8820">(480) 650-8820</a>
+          </div>
+        </div>
+
+        <!-- Categories Widget -->
+        <div class="card my-4">
+          <h5 class="card-header">Professional</h5>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-6">
+                <ul class="list-unstyled mb-0 text-center">
+                  <li>
+                    <a href="https://github.com/Stvnwslybwmnjr" target="_blank" rel="noopener noreferrer"><i
+                        class="fa fa-github-square"></i><br>Github</a>
+                  </li>
+                  <li>
+                    <a href="./Resume.pdf" target="_blank" rel="noopener noreferrer"><i
+                        class="fa fa-file-pdf-o" aria-hidden="true"></i><br>Resume</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul class="list-unstyled mb-0 text-center">
+                  <li>
+                    <a href="https://linkedin.com/in/steven-bowman-757892190" target="_blank"
+                      rel="noopener noreferrer"><i class="fa fa-linkedin-square"></i><br>LinkedIn</a>
+                  </li>
+                  <li>
+                    <a href="https://www.codewars.com/users/GooseAbuse" target="_blank" rel="noopener noreferrer"><img
+                        src="./assets/images/iconfinder_codewars_1586249.png" class="codewars" alt=""><br>CodeWars</a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Side Widget -->
+        <div class="card my-4">
+          <h5 class="card-header">Portfolio</h5>
+          <div class="card-body">
+            <div class="panel-group" id="accordion">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><i class="fa fa-gamepad"
+                      aria-hidden="true"></i><br>Games</a>
+
+                </div>
+                <div id="collapse1" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                    <hr>
+                    <a href="https://stvnwslybwmnjr.github.io/RPS-Multiplayer/" target="_blank"
+                      rel="noopener noreferrer"><i class="fa fa-hand-rock-o game" aria-hidden="true"></i><i
+                        class="fa fa-hand-paper-o game" aria-hidden="true"></i><i class="fa fa-hand-scissors-o game"
+                        aria-hidden="true"></i>Rock Paper Scissors</a>
+                    <hr>
+                    <a href="https://stvnwslybwmnjr.github.io/TriviaGame/" target="_blank" rel="noopener noreferrer"><i
+                        class="fa fa-book game" aria-hidden="true"></i>
+                      <i class="fa fa-question-circle-o game" aria-hidden="true"></i>
+                      Literature Trivia</a>
+                    <hr>
+                    <a href="https://stvnwslybwmnjr.github.io/Unit-4-Game-c-/" target="_blank"
+                      rel="noopener noreferrer"><i class="fa fa-diamond game" aria-hidden="true"></i><i
+                        class="fa fa-calculator game" aria-hidden="true"></i>Crystal Counter</a>
+                    <hr>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"><i class="fa fa-mobile"
+                      aria-hidden="true"></i><br>Websites</a>
+
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <hr>
+                    <a href="https://floating-beach-70870.herokuapp.com/" target="_blank"
+                      rel="noopener noreferrer"><i class="fa fa-coffee game"
+                        aria-hidden="true"></i>Road Runner Coffee</a>
+                    <hr>
+                    <a href="https://shielded-tor-95793.herokuapp.com/" target="_blank"
+                      rel="noopener noreferrer"><i class="fa fa-money game"
+                        aria-hidden="true"></i><i class="fa fa-bar-chart game"
+                        aria-hidden="true"></i>Penny Pincher</a>
+                  </div>
+                </div>
+              </div>
+              <!-- THIRD ACCORDION -->
+              
+                    <a href="./portfolio.html" target="_blank"
+                      rel="noopener noreferrer"><i class="fa fa-sort-amount-desc game" aria-hidden="true"></i><br>Full Portfolio</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- The below is all for bootstrp  -->
+  <!--  JavaScript for Boostrap -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <!-- Local Javascript -->
+  <script src="./assets/javascript/js.js"></script>
+</body>
+
+</html>
