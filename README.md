@@ -1,2 +1,5 @@
-# BioPage
-A website to display what I've learned as coder so far. October 2019
+# Portfolio / Bio
+
+[Click Here to See!](https://stvnwslybwmnjr.github.io/BioPage/)
+
+A short explanation of who I am and what my skills are. Follow the portfolio link to see some of the projects I have been working on in the past six months!
